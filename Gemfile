@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 #aws
 gem "fog"
+gem "figaro"
 #heroku
 gem 'rails_12factor', group: :production
 # Use ActiveModel has_secure_password

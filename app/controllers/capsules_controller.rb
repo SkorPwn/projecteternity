@@ -69,6 +69,6 @@ class CapsulesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def capsule_params
-      params.require(:capsule).permit(:message)
+      params.require(:capsule).permit(:message, :image)
     end
 end
